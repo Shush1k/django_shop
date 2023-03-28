@@ -1,0 +1,203 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-12 16:15+0300\n"
+"PO-Revision-Date: 2023-02-12 13:16+0000\n"
+"Last-Translator:   <>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Translated-Using: django-rosetta 0.9.8\n"
+
+#: cart/forms.py:12 cart/templates/cart/detail.html:16
+msgid "Quantity"
+msgstr "Количество"
+
+#: cart/templates/cart/detail.html:6 cart/templates/cart/detail.html:10
+#| msgid "Your cart"
+msgid "Your shopping cart"
+msgstr "Корзина"
+
+#: cart/templates/cart/detail.html:14
+msgid "Image"
+msgstr "Картинка"
+
+#: cart/templates/cart/detail.html:15 shop/templates/shop/product/list.html:6
+#: shop/templates/shop/product/list.html:24
+msgid "Products"
+msgstr "Товар"
+
+#: cart/templates/cart/detail.html:17
+msgid "Remove"
+msgstr "Удалить"
+
+#: cart/templates/cart/detail.html:18
+msgid "Unit price"
+msgstr "Цена за шт."
+
+#: cart/templates/cart/detail.html:19
+msgid "Price"
+msgstr "Цена"
+
+#: cart/templates/cart/detail.html:70
+#: orders/templates/orders/order/create.html:26
+msgid "Total"
+msgstr "Итог"
+
+#: cart/templates/cart/detail.html:81
+#: shop/templates/shop/product/detail.html:28
+msgid "People who bought this also bought"
+msgstr "Рекомендуемый товар"
+
+#: cart/templates/cart/detail.html:94
+msgid "Apply a coupon"
+msgstr "Применить купон"
+
+#: cart/templates/cart/detail.html:97
+msgid "Apply"
+msgstr "Применить"
+
+#: cart/templates/cart/detail.html:102
+msgid "Continue shopping"
+msgstr "Добавить еще"
+
+#: cart/templates/cart/detail.html:103
+#: orders/templates/orders/order/create.html:5
+#: orders/templates/orders/order/create.html:9
+msgid "Checkout"
+msgstr "Посчитать"
+
+#: coupons/forms.py:6
+msgid "code"
+msgstr "Код"
+
+#: myshop/settings.py:124
+msgid "English"
+msgstr "Английский"
+
+#: myshop/settings.py:125
+msgid "Russian"
+msgstr "Русский"
+
+#: myshop/urls.py:27
+msgid "cart/"
+msgstr "корзина"
+
+#: myshop/urls.py:28
+msgid "orders/"
+msgstr "заказы"
+
+#: myshop/urls.py:29
+msgid "payment/"
+msgstr "оплата"
+
+#: myshop/urls.py:30
+msgid "coupons/"
+msgstr "купоны"
+
+#: orders/forms.py:11
+#, fuzzy
+#| msgid "postal code"
+msgid "Postal code"
+msgstr "индекс"
+
+#: orders/models.py:13
+msgid "first name"
+msgstr "имя"
+
+#: orders/models.py:14
+msgid "last name"
+msgstr "фамилия"
+
+#: orders/models.py:16
+msgid "address"
+msgstr "адрес"
+
+#: orders/models.py:17
+msgid "postal code"
+msgstr "индекс"
+
+#: orders/models.py:18
+msgid "city"
+msgstr "город"
+
+#: orders/templates/orders/order/create.html:11
+msgid "Your order"
+msgstr "Ваш заказ"
+
+#: orders/templates/orders/order/create.html:30
+msgid "Place order"
+msgstr "Заказ"
+
+#: orders/urls.py:8
+msgid "create/"
+msgstr "создать"
+
+#: payment/urls.py:9
+msgid "process/"
+msgstr "процесс"
+
+#: payment/urls.py:10
+msgid "completed/"
+msgstr "выполнен"
+
+#: payment/urls.py:11
+msgid "canceled/"
+msgstr "отменен"
+
+#: shop/templates/shop/base.html:7 shop/templates/shop/base.html:12
+msgid "My shop"
+msgstr "Магазин"
+
+#: shop/templates/shop/base.html:17
+msgid "Language"
+msgstr ""
+
+#: shop/templates/shop/base.html:35
+msgid "Your cart"
+msgstr "Корзина"
+
+#: shop/templates/shop/base.html:37
+#, python-format
+msgid ""
+"\n"
+"              %(items)s item, $%(total)s\n"
+"            "
+msgid_plural ""
+"\n"
+"              %(items)s items, $%(total)s\n"
+"            "
+msgstr[0] ""
+"\n"
+"%(items)s продукт, $%(total)s"
+msgstr[1] ""
+"\n"
+"%(items)s продукты, $%(total)s"
+msgstr[2] ""
+msgstr[3] ""
+
+#: shop/templates/shop/base.html:44
+msgid "Your cart is empty"
+msgstr "Пустая корзина"
+
+#: shop/templates/shop/product/detail.html:22
+msgid "Add to cart"
+msgstr "Добавить в корзину"
+
+#: shop/templates/shop/product/list.html:14
+msgid "All"
+msgstr "Все"
+
+#, fuzzy
+#~ msgid "Product"
+#~ msgstr "Товар"

@@ -1,0 +1,9 @@
+venv
+env
+.idea/
+*.log
+*.pot
+*pyc
+.env
+myshop/static/
+.DS_Store
